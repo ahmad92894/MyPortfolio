@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(151, 161, 163);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.objective {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 251, 255);
+    color: black;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    float: right;
+
+
+}
+
+h1 {
+    color: rgb(80, 226, 237);
+    font-size: xx-large;
+}
+
+ nav a {
+    font-size: x-large;
+    padding: 10px;
+    color:beige;
+    background-color: rgb(0, 120, 248);
+}
+
+#aboutMe {
+display: flex;
+padding-top: 50px;
+justify-content: space-between;
+
+}
+
+
+h2 {
+    flex-basis: 100%;
+    color:white;
+    font-size: x-large;
+    background-color: rgb(80, 226, 237);
+}
+
+#myinfo {
+    font-size: x-large;
+    color: white;
+}
+
+#Work {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.Stuff {
+    margin: 20px;
+
+}
+
+#challenge-one {
+    width: 100%;
+    justify-self: center;
+}
+
+#challenge-one img {
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.Stuff header {
+    font-size: x-large;
+    justify-self: center;
+}
+
+#assignmentX img, #assignmentXX img, #assignmentXXX img {
+    width: 100%;
+}
+
+#Contact-Me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Contact-Me a , p {
+    font-size: medium;
+    padding: 20px;
+    color: white;
+}
+
+
+.footer {
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ 
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #aboutMe {
+        flex-direction: column;
+        align-items: center;
+      }
+
+    #Work {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #Contact-Me {
+        flex-direction: column;
+        align-items: center;
+      }
+  }
+  
